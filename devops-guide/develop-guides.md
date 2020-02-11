@@ -21,13 +21,13 @@ Backend for frontends
  
 Code control
 ------------
-## Concepto
+### Concepto
 Una metodología que proporciona un mejor control y administración del código de un proyecto de software, es aquella que adopta los conceptos de Gitflow. Con esta implementación es posible ordenar las tareas de los equipo de desarrollo, asi como las historias asociadas en un proyecto ágil.
  
-## Alcance
+### Alcance
 Permite gestionar el código relacionado a las tareas de los equipos de desarrollo y tod@s aquellos que trabajan sobre el proyecto, ya sea en teams o de forma individual.
  
-## Uso de Ramas
+### Uso de Ramas
 Siguiendo las definiciones de Git, la historia de cambios puede ser separado en ramas de trabajo. Según Gitflow, las ramas a utilizar son:
 Principales: Aquellas que son permanentes en la historia del proyecto.
 develop: Rama con historia principal de desarrollo.
@@ -47,7 +47,7 @@ Tags: Hitos de control. Definen un punto en la historia del proyecto.
 
 ​
  
-## Tag Formulas
+### Tag Formulas
 SemVer (semantic versioning, https://semver.org/lang/es/)
 MAJOR version when you make incompatible API changes,
 MINOR version when you add functionality in a backwards compatible manner, and
@@ -57,7 +57,7 @@ Additional labels for pre-release and build metadata are available as extensions
  
 
  
-## Roles de gestión Git
+### Roles de gestión Git
 Dueño:
 Superadministrador de TODOS los grupos.
 
@@ -94,8 +94,8 @@ Ver código, ramas, tags y merge request.
 
 Clonar proyecto pero NO editar
 
-## Proceso
-### Iniciar proyecto/repositorio
+### Proceso
+#### Iniciar proyecto/repositorio
 - De manera local.
 
 Posicionarse en la carpeta que contendrá el proyecto: git init
@@ -119,7 +119,7 @@ Activar plugin de ChatOps / gitbot correspondiente.
 Clonar repositorio en local
 git clone URL_REPOSITORIO
  
-### Trabajar con feature o historia de cambio
+#### Trabajar con feature o historia de cambio
 Clonar repositorio:
 git clone
 Posicionarse en develop
@@ -159,7 +159,7 @@ git branch -d feature/myfeature
 git push origin :feature/myfeature
 
  
-### Liberar releases
+#### Liberar releases
  
 git checkout develop
 
@@ -276,7 +276,7 @@ git push origin vX.X.X-myfix
 
 
  
-## Flujo
+### Flujo
 
  
 Security Test
