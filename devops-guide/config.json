@@ -1,6 +1,6 @@
 {
     "useSideMenu": true,
     "lineBreaks": "gfm",
-    "additionalFooterText": "All content and images &copy; by Marcelo Cárdenas",
+    "additionalFooterText": "All content and images by Marcelo Cardenas &copy;. ",
     "anchorCharacter": "#"
 }
