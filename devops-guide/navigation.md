@@ -8,4 +8,4 @@
 [IT-Ops](it-ops.md)
 [DevOps-Principles](devops-principles.md)
 
-[gimmick:theme (inverse: true)](darkly)
+[gimmick:theme (inverse: false)](darkly)
