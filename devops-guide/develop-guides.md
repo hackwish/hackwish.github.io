@@ -36,9 +36,11 @@ Siguiendo las definiciones de Git, la historia de cambios puede ser separado en 
     - **release/:** Rama para la entrega de versiones a producción. Auxiliar, temporal.
     - **hotfix/:** Rama para la solución de issues críticos pero no funcionales  en producción. Auxiliar, temporal.
 ​
+
 ![](img/ramas.png)
 
 **Tags:** Hitos de control. Definen un punto en la historia del proyecto.
+
 
 ![](img/tags.png)
 
@@ -116,6 +118,9 @@ Additional labels for pre-release and build metadata are available as extensions
         ```git push --set-upstream origin feature/myfeature```
     - Si la rama ya existe en lo sucesivo basta con enviar el código
         ```git push (en las publicaciones sucesivas)```
+
+![](img/e75b2493-5fc4-4dbb-8ea5-d4f14aeea14d.png)
+
 - Una vez el cambio o la historia puede ser cerrado se debe integrar en la rama de desarrollo.
     - Esto requiere previamente:
         - que la rama feature contenga cambios que otras historias han integrado en "develop"
