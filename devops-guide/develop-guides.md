@@ -36,7 +36,11 @@ Siguiendo las definiciones de Git, la historia de cambios puede ser separado en 
     - **release/:** Rama para la entrega de versiones a producción. Auxiliar, temporal.
     - **hotfix/:** Rama para la solución de issues críticos pero no funcionales  en producción. Auxiliar, temporal.
 ​
+![](img/ramas.png)
+
 **Tags:** Hitos de control. Definen un punto en la historia del proyecto.
+
+![](img/tags.png)
 
 ### Tag Formulae
 #### SemVer (semantic versioning, https://semver.org/lang/es/)
@@ -45,6 +49,8 @@ Siguiendo las definiciones de Git, la historia de cambios puede ser separado en 
 + **PATCH:** version when you make backwards compatible bug fixes.
 
 Additional labels for pre-release and build metadata are available as extensions to the *MAJOR.MINOR.PATCH* format.
+
+![](img/9b954050-4dea-4863-844c-b3f73a3ba25a.png)
 
 ### Roles de gestión Git
 **Dueño:**
