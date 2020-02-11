@@ -138,13 +138,18 @@ Additional labels for pre-release and build metadata are available as extensions
     ```git branch -d feature/myfeature```
     ```git push origin :feature/myfeature```
 
+![](img/dde8ddc2-a79c-4ad6-82b2-1de387e169ce.png)
+
 #### Liberar releases
 ```git checkout develop```
 ```git checkout -b release/vX.X.X```
 ```git add .```
 ```git commit -m “descripción commit”```
 ```git push --set-upstream origin release/vX.X.X```
-```git push (en las publicaciones sucesivas)```
+```git push (en las publicaciones sucesivas)``
+
+![](img/6171ff98-43ae-4b59-8b14-4cd504a59266.png)
+`
 ```git checkout master```
 ```git merge release/vX.X.X```
 ```git branch -d release/vX.X.X```
@@ -162,6 +167,8 @@ Additional labels for pre-release and build metadata are available as extensions
 ```git push origin vX.X.X```
 ```git push origin --tag```
 
+![](img/release-end.png)
+
 #### Trabajar con Hotfixes
 ```git checkout master```
 ```git checkout -b hotfix/myfix```
@@ -169,6 +176,9 @@ Additional labels for pre-release and build metadata are available as extensions
 ```git commit -m “descripción commit”```
 ```git push --set-upstream origin hotfix/myfix```
 ```git push```
+
+![](img/9824637d-5fdc-4ab6-a62c-a58c66755702.png)
+
 ```git checkout develop```
 ```git merge hotfix/myfix```
 ```git checkout master```
@@ -178,9 +188,12 @@ Additional labels for pre-release and build metadata are available as extensions
 ```git tag -a vX.X.X -m “new version vX.X.X-myfix"```
 ```git push origin vX.X.X-myfix```
 
-### Flujo
+![](img/hotfix-end.png)
 
- 
+### Flujo
+![](img/df37dd8c-3c4c-42ea-8f53-7ca1a829ef3d.png)
+
+
 Security Test
 -------------
 ### Clair: 
