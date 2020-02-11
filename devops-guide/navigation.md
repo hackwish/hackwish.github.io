@@ -3,7 +3,7 @@
 [Home](index.md)
 [CI/CD](cicd.md)
 [Automation](automation.md)
-[Monitor&Alerting]
-[Develop-Guides]
-[IT-Ops]
-[DevOps-Principles]
+[Monitor-Alerting](monitor-alerting.md)
+[Develop-Guides](develop-guides.md)
+[IT-Ops](it-ops.md)
+[DevOps-Principles](devops-principles.md)
