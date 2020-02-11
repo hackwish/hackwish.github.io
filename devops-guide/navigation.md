@@ -7,3 +7,5 @@
 [Develop-Guides](develop-guides.md)
 [IT-Ops](it-ops.md)
 [DevOps-Principles](devops-principles.md)
+
+[gimmick:theme (inverse: true)](darkly)
