@@ -1,4 +1,4 @@
-MDwiki
+DevOps Guides
 ======
 
-See http://www.mdwiki.info/ for more documentation and details.
+Powered by http://dynalon.github.io/mdwiki
